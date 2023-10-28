@@ -18,6 +18,7 @@ return require('packer').startup(function(use)
   })
 
   use 'wbthomason/packer.nvim'
+  use {'neoclide/coc.nvim', branch = 'release'}
   use 'tpope/vim-commentary'
   use 'ellisonleao/gruvbox.nvim'
   use 'dracula/vim'
@@ -33,30 +34,16 @@ return require('packer').startup(function(use)
   use 'tpope/vim-surround'
   use 'stevearc/oil.nvim'
   use 'nvim-tree/nvim-tree.lua'
+  
   -- completion
-  use 'hrsh7th/nvim-cmp'
-  use 'hrsh7th/cmp-nvim-lsp'
-  use 'L3MON4D3/LuaSnip'
-  use 'saadparwaiz1/cmp_luasnip'
-  use "rafamadriz/friendly-snippets"
-  use "github/copilot.vim"
 
-  use({
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
-  })
 
-  use({
-      "vinnymeller/swagger-preview.nvim",
-      run = "npm install -g swagger-ui-watcher",
-  })
+  use{
+	'nvim-telescope/telescope.nvim', tag = '0.1.4',
+-- or                            , branch = '0.1.x',
+	requires = { {'nvim-lua/plenary.nvim'} }
+}
 
-  use({
-	  'nvim-telescope/telescope.nvim',
-	  tag = '0.1.0',
-	  requires = { {'nvim-lua/plenary.nvim'} }
-  })
 
   if packer_bootstrap then
     require('packer').sync()
