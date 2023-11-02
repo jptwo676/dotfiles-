@@ -12,27 +12,16 @@ end
 local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
-  use({
-    "iamcco/markdown-preview.nvim",
-    run = "cd app && npm install",
-  })
 
   use 'wbthomason/packer.nvim'
   use {'neoclide/coc.nvim', branch = 'release'}
-  use 'tpope/vim-commentary'
   use 'ellisonleao/gruvbox.nvim'
-  use 'dracula/vim'
   use { "catppuccin/nvim", as = "catppuccin" }
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
   use 'bluz71/vim-nightfly-colors'
   use 'vim-test/vim-test'
-  use 'lewis6991/gitsigns.nvim'
-  use 'preservim/vimux'
-  use 'christoomey/vim-tmux-navigator'
-  use 'tpope/vim-fugitive'
   use 'tpope/vim-surround'
-  use 'stevearc/oil.nvim'
   use 'nvim-tree/nvim-tree.lua'
   
   -- completion

@@ -79,10 +79,10 @@ _G.packer_plugins = {
     path = "/home/two/.local/share/nvim/site/pack/packer/start/catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
-  ["gitsigns.nvim"] = {
+  ["coc.nvim"] = {
     loaded = true,
-    path = "/home/two/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
-    url = "https://github.com/lewis6991/gitsigns.nvim"
+    path = "/home/two/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
@@ -94,11 +94,6 @@ _G.packer_plugins = {
     path = "/home/two/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["markdown-preview.nvim"] = {
-    loaded = true,
-    path = "/home/two/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
-    url = "https://github.com/iamcco/markdown-preview.nvim"
-  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/two/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -108,11 +103,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/two/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
-  ["oil.nvim"] = {
-    loaded = true,
-    path = "/home/two/.local/share/nvim/site/pack/packer/start/oil.nvim",
-    url = "https://github.com/stevearc/oil.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -129,21 +119,6 @@ _G.packer_plugins = {
     path = "/home/two/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  vim = {
-    loaded = true,
-    path = "/home/two/.local/share/nvim/site/pack/packer/start/vim",
-    url = "https://github.com/dracula/vim"
-  },
-  ["vim-commentary"] = {
-    loaded = true,
-    path = "/home/two/.local/share/nvim/site/pack/packer/start/vim-commentary",
-    url = "https://github.com/tpope/vim-commentary"
-  },
-  ["vim-fugitive"] = {
-    loaded = true,
-    path = "/home/two/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
-  },
   ["vim-nightfly-colors"] = {
     loaded = true,
     path = "/home/two/.local/share/nvim/site/pack/packer/start/vim-nightfly-colors",
@@ -158,16 +133,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/two/.local/share/nvim/site/pack/packer/start/vim-test",
     url = "https://github.com/vim-test/vim-test"
-  },
-  ["vim-tmux-navigator"] = {
-    loaded = true,
-    path = "/home/two/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
-    url = "https://github.com/christoomey/vim-tmux-navigator"
-  },
-  vimux = {
-    loaded = true,
-    path = "/home/two/.local/share/nvim/site/pack/packer/start/vimux",
-    url = "https://github.com/preservim/vimux"
   }
 }
 
